@@ -1,7 +1,7 @@
 import math
 def is_prime(n):
   if n < 0:
-  return "Os números negativos non están permitidos"
+    return "Os números negativos non están permitidos"
   if n <= 1:
     return False
   if n == 2:
